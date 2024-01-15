@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3 File Upload and Download</title>
+    <!-- Include AWS SDK for JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.1195.0/aws-sdk.min.js"></script>
+    <!-- Include jQuery and jQuery UI for sorting -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload = "listFiles()">
+    <div class="container">
+        <h1>S3 Bucket Files</h1>
+        <ul id="fileList"></ul>
+        <a href="index.html">
+            <button >Return to File Upload</button>
+        </a> 
+    </div>
+    <!-- Script -->
+    <script src="app.js"></script>
+</body>
+</html>
